@@ -4,9 +4,9 @@ export default defineNuxtConfig({
     rootId: "app",
     rootTag: "body",
     // target: 'static',
-    router: {
+/*    router: {
       base: '/mazadcse/'
-    },
+    },*/
     head: {
       htmlAttrs: {
         lang: "en"
