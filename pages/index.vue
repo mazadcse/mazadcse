@@ -6,13 +6,13 @@
 
     <!-- Introduction -->
     <section>
-<!--      <nuxt-img
+     <nuxt-img
           format="webp"
           loading="lazy"
           src="/index.png"
           alt="Profile Picture"
           class="md:h-100 min-w-[5rem]  border-[.05rem] border-slate-300 dark:border-none"
-      />-->
+      />
       <h1 class="font-semibold text-2xl mb-6">Hi, my name is Mahedi Azad.</h1>
       <p>
         I am a results-oriented developer experienced in software development
