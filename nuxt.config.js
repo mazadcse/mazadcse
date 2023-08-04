@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     rootId: "app",
     rootTag: "body",
-    target: 'static',
+    // target: 'static',
     router: {
       base: '/mazadcse/'
     },
