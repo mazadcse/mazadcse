@@ -7,6 +7,9 @@ export default defineNuxtConfig({
 /*    router: {
       base: '/mazadcse/'
     },*/
+    build: {
+      publicPath: '/mazadcse/'
+    },
     head: {
       htmlAttrs: {
         lang: "en"
