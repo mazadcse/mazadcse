@@ -9,7 +9,7 @@
             description: () => doc.desc,
             altTitle: "hi",
             author: "Dawit (@oneminch)",
-            ogUrl: `http://oneminch.dev${doc._path}`,
+            ogUrl: `http://mahediazad.com${doc._path}`,
             ogType: "article",
             ogLocale: "en_US",
             ogTitle: () => doc.longTitle || doc.title,

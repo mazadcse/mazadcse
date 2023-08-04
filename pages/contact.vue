@@ -52,7 +52,7 @@
     twitterDescription: seoMeta.description,
     ogImage: seoMeta.image,
     twitterImage: seoMeta.image,
-    ogUrl: `http://oneminch.dev${useRoute().fullPath}`,
+    ogUrl: `http://mahediazad.com${useRoute().fullPath}`,
     ogType: "website",
     ogLocale: "en_US",
     twitterCard: "summary_large_image"
