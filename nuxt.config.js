@@ -64,8 +64,8 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "nuxt-simple-robots"
   ],
-  build: {
-    publicPath: 'https://mazadcse.github.io/mazadcse'
+  router: {
+    base: '/mazadcse/'
   },
   routeRules: {
     // Static pages
