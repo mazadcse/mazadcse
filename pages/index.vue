@@ -6,23 +6,15 @@
 
     <!-- Introduction -->
     <section>
-<!--     <nuxt-img
-          format="webp"
-          loading="lazy"
-          src="/index.png"
-          alt="Profile Picture"
-          class="md:h-100 min-w-[5rem]  border-[.05rem] border-slate-300 dark:border-none"
-      />-->
       <h1 class="font-semibold text-2xl mb-6">Hi, my name is Mahedi Azad.</h1>
       <p>
-        I am a results-oriented developer experienced in software development
-        through professional freelance work, internships, and open-source
+        I am a results-oriented developer over 10 years experienced in software development
+        through professional job, freelance work, internships, and open-source
         contributions. I possess broad technical knowledge of software
         engineering, a quick learning ability, and creative programming skills.
         Furthermore, I'm fluent in several languages and frameworks including
-        Python, SQL, JavaScript, Vue.js, and, Node.js. I'm currently focused on
-        expanding my experience using  Angular, React.js, MongoDB &
-        TypeScript.
+        PHP, SQL, JavaScript, Laravel, Vue.js, Angular and, Node.js, MySql, MongoDB. I'm currently focused on
+        expanding my experience using React.js and Python.
       </p>
     </section>
 
@@ -39,17 +31,17 @@
     <section class="columns-1 lg:columns-2 gap-6">
       <AppProjectCard
         :hideImage="true"
-        project-title="Deadlines"
-        project-url="https://deadlines.oneminch.dev/"
-        project-description="Deadlines is a simple, offline deadline tracker made with Vue.js and localForage."
-        :tags="['Vue.js', 'localForage']"
+        project-title="Foordo.xyz"
+        project-url="https://foordo.mahediazad.com/"
+        project-description="A SaaS model based simple shop management system with POS. Paper less supply to sales chain management include HR, accounts, inventory and stock and courier. Real time notification, customer support and payment gateway integrated."
+        :tags="['Laravel', 'Vue.js', 'localForage', 'MySql']"
       />
       <AppProjectCard
         :hideImage="true"
-        project-title="EncryptedList"
-        project-url="https://encryptedlist.xyz/"
-        project-description="EncryptedList is a List of Products & Services that Offer Zero-Knowledge or End-to-End Encryption."
-        :tags="['Vue.js', 'Tailwind CSS', 'Airtable']"
+        project-title="Event Bookings Management"
+        project-url="https://www.eventbookings.com/"
+        project-description="The hassle-free solution for selling tickets online. Streamline check-ins with mobile ticket scanning. Capture essential information with smart forms and Simple email marketing. Used in business, sports, charity, academic, cultural and much more programs."
+        :tags="['Cakephp', 'Bootstrap', 'Javascript', 'PostgreSQL']"
       />
     </section>
 
@@ -82,7 +74,7 @@
   const seoMeta = {
     title: "Mahedi Azad - Laravel Developer",
     description:
-      "I'm a frontend engineer who's passionate about the open web (JavaScript, React.js, Vue.js)",
+      "I'm a software engineer who's passionate about the open web (Laravel, JavaScript, Vue.js, Angular)",
     image: "/og-image.png"
   };
 
@@ -102,19 +94,29 @@
   });
 
   const skills = ref([
-    "Python",
+    "PHP",
     "JavaScript",
+    "SQL/PLSQL",
+    "Laravel",
+    "Cakephp",
+    "Codeigniter",
     "Vue.js",
-    "Git",
-    "HTML",
-    "CSS",
-    "SQL",
+    "Angular",
+    "Alpine JS",
+    "Svelte",
     "Node.js",
-    "Express.js"
+    "Express.js",
+    "MySql",
+    "PostgreSQL",
+    "Oracle",
+    "MongoDB",
+    "Git",
+    "SVN",
+    "AWS (EC2)"
   ]);
 
   const currently = {
-    Learning: "Node.js",
+    Learning: "React.js",
     Reading: "Pragmatic Thinking",
     Listening: "The Witch Trials of J.K. Rowling",
     Playing: "Little Nightmares II"

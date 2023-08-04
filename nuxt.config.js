@@ -3,11 +3,6 @@ export default defineNuxtConfig({
   app: {
     rootId: "app",
     rootTag: "body",
-    // target: 'static',
-/*    router: {
-      base: '/mazadcse/'
-    },*/
-
     head: {
       htmlAttrs: {
         lang: "en"
@@ -24,15 +19,9 @@ export default defineNuxtConfig({
         }
       ],
       script: [
-        /*{
-          type: "text/partytown",
-          src: "https://measure.oneminch.dev/minch-measure",
-          async: true,
-          "data-website-id": "1e0e9daa-a25b-4943-af4e-68c91b2d3c72"
-        },*/
         {
           type: 'text/javascript',
-          src: 'js/minch-measure.js',
+          src: 'js/measure.js',
           body: true,
           async: true,
         },
