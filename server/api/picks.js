@@ -1,4 +1,4 @@
-// import axios from "axios";
+import axios from "axios";
 
 const { raindropTestToken, raindropCollectionId } = useRuntimeConfig();
 
@@ -13,7 +13,7 @@ const url = `https://api.raindrop.io/rest/v1/raindrops/${raindropCollectionId}`;
 
 export default defineEventHandler(async () => {
   try {
-    /*const response = await axios.get(url, axiosConfig);
+    const response = await axios.get(url, axiosConfig);
 
     const picks = response.data.items.map((item) => {
       return {
@@ -22,8 +22,8 @@ export default defineEventHandler(async () => {
         url: item.link
       };
       // date: item.created
-    });*/
-    const picks = [
+    });
+    /*const picks = [
       {
         "cover": "https://i.ytimg.com/vi/17zBODTpuoo/maxresdefault.jpg",
         "title": "A First Look at Nuxt SERVER COMPONENTS",
@@ -144,7 +144,7 @@ export default defineEventHandler(async () => {
         "title": "How Discord Stores Trillions of Messages",
         "url": "https://discord.com/blog/how-discord-stores-trillions-of-messages"
       }
-    ];
+    ];*/
 
     return picks;
   } catch (error) {
