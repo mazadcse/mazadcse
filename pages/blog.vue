@@ -50,11 +50,11 @@
   });
 
   // Fetch all blog posts sans LeetCode solutions
-/*  const { pending, data: blogPosts } = await useLazyAsyncData("blog", () =>
+  const { pending, data: blogPosts } = await useLazyAsyncData("blog", () =>
     queryContent("/blog").find()
-  );*/
+  );
 
-  const  pending  = false;
+/*  const  pending  = false;
   const   blogPosts  = [
     {
       "_path": "/blog/deno-vs-node",
@@ -4949,5 +4949,5 @@
       "_file": "blog/https.md",
       "_extension": "md"
     }
-  ];
+  ];*/
 </script>
