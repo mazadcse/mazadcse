@@ -1,6 +1,6 @@
 <!-- Blog: LeetCode Coding Problems -->
 <template>
-  <main id="leetcode">
+  <main id="code">
     <Title>{{ seoMeta.title }}</Title>
     <Meta name="description" :content="seoMeta.description" />
 
@@ -55,7 +55,7 @@
 
   // Fetch all LeetCode solutions
   const { pending, data: codeSolutions } = await useAsyncData("leetcode", () =>
-    queryContent("/leetcode").find()
+    queryContent("/code").find()
   );
 
 /*  const pending = false;

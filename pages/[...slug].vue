@@ -1,4 +1,5 @@
 <template>
+
   <ContentDoc tag="">
     <template #default="{ doc }">
       <!-- SEO metadata from blog data -->
@@ -38,7 +39,7 @@
       />
 
       <!-- Additional info for leetcode solution posts -->
-      <template v-if="doc._dir == 'leetcode'">
+      <template v-if="doc._dir == 'leetcode' || doc._dir == 'code'">
         <div class="mb-1">
           <span
             class="px-2 py-[.1rem] inline-block rounded-full font-semibold font-mono text-xs mr-1 border border-slate-300 dark:border-slate-500 bg-slate-200 dark:bg-slate-600 text-slate-800 dark:text-slate-100"
@@ -72,7 +73,10 @@
     <template #not-found>
       <AppNotFound />
     </template>
+
+
   </ContentDoc>
+
 </template>
 
 <script setup>

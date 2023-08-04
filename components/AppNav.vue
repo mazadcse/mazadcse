@@ -56,6 +56,7 @@
     Blog: "blog",
     Projects: "projects",
     Resume: "resume",
+    Code: "code",
     Picks: "picks"
   };
 </script>

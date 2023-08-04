@@ -1,6 +1,9 @@
 <template>
   <main class="w-full">
+
     <header class="w-full max-w-3xl mx-auto">
+
+
       <!-- Navigation -->
       <nav class="not-prose hidden md:flex items-center mb-6 py-2 [&>*]:mr-2">
         <NuxtLink
@@ -22,12 +25,12 @@
         </NuxtLink>
         <NuxtLink
           class="focused-link flex justify-between items-center py-1 px-3 bg-slate-200 dark:bg-slate-700 dark:text-slate-200 duration-150 rounded-md no-underline border-[.5px] border-slate-300 dark:border-slate-600"
-          to="/leetcode"
+          to="/code"
           noPrefetch
         >
           <Icon name="simple-icons:leetcode" class="mr-2" />
 
-          LeetCode
+          Code
         </NuxtLink>
       </nav>
     </header>
@@ -38,5 +41,7 @@
     >
       <slot />
     </article>
+
   </main>
 </template>
+

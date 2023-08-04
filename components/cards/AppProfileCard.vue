@@ -3,13 +3,6 @@
   <div
     class="w-full flex flex-col items-center bg-transparent relative [&>*]:mb-1 md:[&>*]:mb-2 last:[&>*]:mb-0 p-1 pb-2 md:pb-1"
   >
-    <nuxt-img
-      format="webp"
-      loading="lazy"
-      src="https://mazadcse.github.io/mazadcse/_ipx/f_webp/profile.jpg"
-      alt="Profile Picture"
-      class="md:w-36 w-2/5 max-w-[8rem] min-w-[5rem] rounded-full border-[.05rem] border-slate-300 dark:border-none"
-    />
     <h2
       class="text-xl md:text-2xl font-bold text-slate-900 dark:text-slate-100"
     >
@@ -39,10 +32,10 @@
 
 <script setup>
   const profiles = {
-   /* LinkedIn: "https://linkedin.com/in/oneminch",
-    GitHub: "https://github.com/oneminch",
-    Hashnode: "https://hashnode.com/@oneminch",
-    DevDotTo: "https://dev.to/oneminch",
-    LeetCode: "https://leetcode.com/oneminch"*/
+    LinkedIn: "https://bd.linkedin.com/in/mahediazad",
+    GitHub: "https://github.com/mazadcse",
+    Hashnode: "https://hashnode.com/@mahediazad",
+    DevDotTo: "https://dev.to/mahediazad",
+    LeetCode: "https://leetcode.com/mahediazad"
   };
 </script>

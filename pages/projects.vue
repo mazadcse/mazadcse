@@ -25,7 +25,7 @@
 
 <script setup>
   const seoMeta = {
-    title: "Dawit's Projects",
+    title: "Mahedi Azad's Projects",
     description:
       "This page contains projects that I am currently working on and have worked on.",
     image: "/og-image.png"
