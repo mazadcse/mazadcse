@@ -64,10 +64,6 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "nuxt-simple-robots"
   ],
-  target: 'static',
-  router: {
-    base: '/mazadcse/'
-  },
   routeRules: {
     // Static pages
     "/": { prerender: true },
