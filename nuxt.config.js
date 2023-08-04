@@ -77,5 +77,6 @@ export default defineNuxtConfig({
     githubToken: process.env.GITHUB_TOKEN,
     raindropTestToken: process.env.RAINDROP_TEST_TOKEN,
     raindropCollectionId: process.env.RAINDROP_COLLECTION_ID
-  }
+  },
+  sourcemap: false
 });
