@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse"
+      ],
+      "~/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/*"
+      ],
+      "@": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse"
+      ],
+      "@/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/*"
+      ],
+      "~~": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse"
+      ],
+      "~~/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/*"
+      ],
+      "@@": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse"
+      ],
+      "@@/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/*"
+      ],
+      "assets": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/assets"
+      ],
+      "assets/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/assets/*"
+      ],
+      "public": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/public"
+      ],
+      "public/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/public/*"
+      ],
+      "#image": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/node_modules/@nuxt/image/dist/runtime/*"
+      ],
+      "#content/server": [
+        "C:/Users/mazad/OneDrive/Desktop/mazadcse/node_modules/@nuxt/content/dist/runtime/server/index"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/mazad/OneDrive/Desktop/mazadcse/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
