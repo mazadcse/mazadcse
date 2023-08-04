@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Generate
-        run: npm generate
+        run: npm run dev
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
