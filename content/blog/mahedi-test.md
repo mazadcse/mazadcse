@@ -4,7 +4,7 @@ title: "My First Test Blog"
 description: "What is the Domain Name System?"
 updated: 1688877769801
 created: 1645422712314
-image: "/mazadcse/_ipx/f_webp/content/cover/https.png"
+image: "/content/cover/https.png"
 head:
   meta:
     - name: "keywords"
