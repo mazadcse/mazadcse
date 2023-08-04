@@ -7,9 +7,7 @@ export default defineNuxtConfig({
 /*    router: {
       base: '/mazadcse/'
     },*/
-    build: {
-      publicPath: '/mazadcse/'
-    },
+
     head: {
       htmlAttrs: {
         lang: "en"
@@ -66,6 +64,9 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "nuxt-simple-robots"
   ],
+  build: {
+    publicPath: 'https://mazadcse.github.io/mazadcse'
+  },
   routeRules: {
     // Static pages
     "/": { prerender: true },
