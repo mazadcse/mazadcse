@@ -52,11 +52,11 @@
   const toggleMenu = useToggle(menuToggled);
 
   const navLinks = {
-    Home: "",
-    Blog: "blog",
-    Projects: "projects",
-    Resume: "resume",
-    Picks: "picks"
+    Home: "/",
+    Blog: "/blog",
+    Projects: "/projects",
+    Resume: "/resume",
+    Picks: "/picks"
   };
 </script>
 
