@@ -6,7 +6,7 @@
     <nuxt-img
       format="webp"
       loading="lazy"
-      src="/profile.png"
+      src="https://mazadcse.github.io/mazadcse/_ipx/f_webp/profile.jpg"
       alt="Profile Picture"
       class="md:w-36 w-2/5 max-w-[8rem] min-w-[5rem] rounded-full border-[.05rem] border-slate-300 dark:border-none"
     />
