@@ -41,6 +41,7 @@
 
  // const { pending, data: picks } = await useLazyFetch("/api/picks");
 
+
   const pending = false;
  const data =  [
     {
