@@ -1,6 +1,7 @@
 <!-- Sidebar -->
 <template>
   <aside
+      style="display:block"
     id="sidebar"
     class="flex flex-col items-center justify-start w-full md:w-1/4 min-w-[16rem] md:min-w-[20rem] h-full max-h-[40rem] rounded-xl md:rounded-b-none p-5 pb-2 md:mr-4 md:mb-0 mb-6 box-border text-slate-900 bg-white dark:bg-slate-800 border border-transparent print:hidden relative md:sticky md:top-4 -z-0"
     :class="{ hidden: routeRegEx.test($route.fullPath) }"
