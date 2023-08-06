@@ -41,9 +41,9 @@
 
  // const { pending, data: picks } = await useLazyFetch("/api/picks");
 
-
   const pending = false;
- const data =  [
+
+ const picks =  [
     {
         "cover": "https://i.ytimg.com/vi/17zBODTpuoo/maxresdefault.jpg",
         "title": "A First Look at Nuxt SERVER COMPONENTS",
