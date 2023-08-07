@@ -4,7 +4,7 @@ title: "How to build a Cross-Platform Desktop application with Electron and Node
 description: "How to build a Cross-Platform Desktop application with Electron and NodeJs "
 updated: 1688877769801
 created: 1645422712314
-image: "/content/cover/https.png"
+image: "/content/electron.png"
 head:
   meta:
     - name: "keywords"
@@ -12,7 +12,7 @@ head:
     - name: "robots"
       content: "index, follow"
     - name: "author"
-      content: "Dawit (@oneminch)"
+      content: "Mahedi Azad (@mahediazad)"
     - property: "og:type"
       content: "article"
     - name: "twitter:card"
@@ -26,10 +26,6 @@ series: Electron Js
 navOrder: 1
 ---
 
-## How to build a Cross-Platform Desktop application with Electron and NodeJs.
-
-How to build a Cross-Platform Desktop application with Electron and NodeJs 
-![How to build a Cross-Platform Desktop application with Electron and NodeJs ](/content/electron.png)
 
 Install the dependencies:
 ```
