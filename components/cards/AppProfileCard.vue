@@ -41,8 +41,8 @@
   const profiles = {
     LinkedIn: "https://bd.linkedin.com/in/mahediazad",
     GitHub: "https://github.com/mazadcse",
-    Hashnode: "https://hashnode.com/@mahediazad",
-    DevDotTo: "https://dev.to/mahediazad",
+    // Hashnode: "https://hashnode.com/@mahediazad",
+    // DevDotTo: "https://dev.to/mahediazad",
     LeetCode: "https://leetcode.com/mahediazad"
   };
 </script>

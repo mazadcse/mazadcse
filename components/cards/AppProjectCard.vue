@@ -14,7 +14,7 @@
         loading="lazy"
         :src="imgUrl"
         alt="Cover Image"
-        class="h-full object-cover bg-cover origin-center"
+        class="h-full min-h-[6rem] object-cover bg-cover origin-center"
       />
     </div>
     <div
