@@ -25,9 +25,9 @@
       }}
 
       <!-- Post title -->
-      <h1 class="mb-4">
+      <h2 class="mb-4">
         {{ doc.longTitle || doc.title }}
-      </h1>
+      </h2>
 
       <!-- Post Cover Image -->
       <nuxt-img
