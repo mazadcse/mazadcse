@@ -26,7 +26,7 @@
 
       <!-- Post title -->
       <h1 class="mb-4">
-        {{ doc.longTitle || doc.title }}111
+        {{ doc.longTitle || doc.title }}222
       </h1>
 
       <!-- Post Cover Image -->
