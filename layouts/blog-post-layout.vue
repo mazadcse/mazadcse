@@ -1,6 +1,6 @@
 <template>
 <!--  <main class="w-full">-->
-    <main id="post">
+    <main id="post" class="bg-white">
 <!--    <header class="w-full max-w-3xl mx-auto">
       <nav class="not-prose hidden md:flex items-center mb-6 py-2 [&>*]:mr-2">
         <NuxtLink
