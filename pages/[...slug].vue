@@ -3,13 +3,13 @@
   <ContentDoc tag="">
     <template #default="{ doc }">
       <!-- SEO metadata from blog data -->
-      <!-- {{
+       {{
         (() => {
           useServerSeoMeta({
             title: () => `${doc.title} - Blog`,
             description: () => doc.desc,
-            altTitle: "hi",
-            author: "Dawit (@oneminch)",
+            altTitle: "Mahedi Azad's blog",
+            author: "Mahedi Azad (@mahediazad)",
             ogUrl: `http://mahediazad.com${doc._path}`,
             ogType: "article",
             ogLocale: "en_US",
@@ -22,7 +22,7 @@
             twitterImage: () => `${imgCdnPrefix}/cover/${doc.image}`
           });
         })()
-      }} -->
+      }}
 
       <!-- Post title -->
       <h1 class="mb-4">
