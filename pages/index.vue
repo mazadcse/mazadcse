@@ -96,23 +96,35 @@
   const skills = ref([
     "PHP",
     "JavaScript",
+    "TypeScript",
     "SQL/PLSQL",
     "Laravel",
     "Cakephp",
     "Codeigniter",
+    "Zend",
     "Vue.js",
     "Angular",
     "Alpine JS",
     "Svelte",
     "Node.js",
     "Express.js",
+    "Socket.io",
+    "Alpine JS",
+    "Svelte",
+    "Tailwind",
+    "Material UI",
     "MySql",
     "PostgreSQL",
     "Oracle",
     "MongoDB",
+     "Redis", 
+    "NeoDB",
     "Git",
     "SVN",
-    "AWS (EC2)"
+    "TFS",
+    "AWS (EC2)",
+    "REST", "SOAP", "JSON-RPC", "ISO-8583", "WebRTC",
+    "Push-Pull SMS Gateway", "Payment Gateway"
   ]);
 
   const currently = {
