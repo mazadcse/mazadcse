@@ -117,14 +117,15 @@
     "PostgreSQL",
     "Oracle",
     "MongoDB",
-     "Redis", 
+    "Redis", 
     "NeoDB",
+    "Graphql",
     "Git",
     "SVN",
     "TFS",
     "AWS (EC2)",
     "REST", "SOAP", "JSON-RPC", "ISO-8583", "WebRTC",
-    "Push-Pull SMS Gateway", "Payment Gateway"
+    "SMS Gateway", "Payment Gateway"
   ]);
 
   const currently = {
