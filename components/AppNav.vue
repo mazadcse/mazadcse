@@ -53,11 +53,11 @@
 
   const navLinks = {
     Home: "",
-    About: "resume",
+   /* About: "resume", */
     Projects: "projects",
     Blog: "blog",
-    Code: "code",
-    Picks: "picks"
+    /*Code: "code",
+    Picks: "picks" */
   };
 </script>
 
